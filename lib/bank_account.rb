@@ -12,5 +12,9 @@ class BankAccount
     @balance += deposit
   end
 
+  def display_balance
+    @balance
+  end
+
 
 end
